@@ -1,0 +1,214 @@
+.app-shell {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 32px 20px 80px;
+}
+
+.app-header h1 {
+  font-size: 1.7rem;
+  margin: 0 0 4px;
+}
+
+.app-subtitle {
+  color: #6b6b6b;
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+}
+
+.banner-error {
+  background: #fdecea;
+  color: #7a1e1e;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.stats-bar {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.stat {
+  flex: 1;
+  min-width: 84px;
+  background: #f6f7fb;
+  border-radius: 10px;
+  padding: 12px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-total {
+  background: #eef0fb;
+}
+
+.stat-count {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  text-transform: capitalize;
+  color: #777;
+  margin-top: 2px;
+}
+
+.chart-empty {
+  text-align: center;
+  color: #888;
+  padding: 30px 0;
+  font-size: 0.9rem;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 24px 0 16px;
+}
+
+.status-filter {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  color: #555;
+}
+
+.filter-btn.active {
+  background: #1f3864;
+  color: white;
+  border-color: #1f3864;
+}
+
+.add-btn {
+  background: #1f3864;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.add-form {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.add-form input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 7px 10px;
+  font-size: 0.85rem;
+}
+
+.add-form-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.add-form button {
+  border: none;
+  border-radius: 6px;
+  padding: 7px 14px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  background: #1f3864;
+  color: white;
+}
+
+.add-form button.secondary {
+  background: #eee;
+  color: #444;
+}
+
+.form-error {
+  width: 100%;
+  color: #b00020;
+  font-size: 0.8rem;
+}
+
+.app-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.app-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+
+.app-card.stale {
+  border-color: #f0c36d;
+  background: #fffaf0;
+}
+
+.app-card-company {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.app-card-role {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.app-card-meta {
+  color: #999;
+  font-size: 0.78rem;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stale-badge {
+  background: #f0c36d;
+  color: #5a4200;
+  border-radius: 999px;
+  padding: 1px 8px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.status-select {
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 0.8rem;
+  background: white;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.loading, .empty-state {
+  text-align: center;
+  color: #999;
+  padding: 40px 0;
+}
